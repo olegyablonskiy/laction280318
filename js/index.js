@@ -52,3 +52,24 @@ function checkAge(age) {
 function prn(val) {
     document.write(val + '<br>');
 }
+
+
+
+
+const a = parseFloat(prompt('Enter A'));
+const b = parseFloat(prompt('Enter B'));
+const c = parseFloat(prompt('Enter C'));
+
+const result = solveQuadr(a, b, c);
+document.write(result);
+
+function solveQuadr(a, b, c) {
+   const d = calcDisc(a, b, c); 
+   
+   
+   return 'x1 = ' + x1 + 'x2 = ' + x2;
+}
+
+function calcDisc(a, b, c) {
+    //
+}
